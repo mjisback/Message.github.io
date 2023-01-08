@@ -1,27 +1,24 @@
-#chat-window {
-  height: 300px;
-  width: 500px;
-  border: 1px solid #ccc;
-  overflow-y: auto;
-  padding: 10px;
+h3{
+  font-family: Calibri; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:SlateBlue;
+  text-align: center; 
+  text-decoration: underline
 }
 
-#chat-form {
-  width: 500px;
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
+table{
+  font-family: Calibri; 
+  color:white; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:; 
+  background-color: SlateBlue; 
+  border-collapse: collapse; 
+  border: 2px solid navy
 }
-
-#message-input {
-  flex-grow: 1;
-  padding: 10px;
-  border: 1px solid #ccc;
-}
-
-button[type="submit"] {
-  padding: 10px;
-  border: 1px solid #ccc;
-  background-color: #eee;
-  cursor: pointer;
+table.inner{
+  border: 0px
 }
